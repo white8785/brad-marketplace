@@ -1,6 +1,6 @@
 # how to use
 
-At the user or project level of your claude code settings, add this json block to your configs:
+1. At the user or project level of your claude code settings, add this json block to your configs:
 
 ```
 {
@@ -8,9 +8,15 @@ At the user or project level of your claude code settings, add this json block t
     "brad-marketplace": {
       "source": {
         "source": "git",
-        "url": "github_url_goes_here.git"
+        "url": "https://github.com/white8785/brad-marketplace.git"
       }
     }
   }
 }
 ```
+
+2. Run claude code and run the `/plugin` command.
+3. Go right until you see `Marketplaces`, and you should see `brad-marketplace`
+4. `Enable auto-update` so the plugin stays up-to-date
+5. Directly engage the agent by `@` mentions
+6. Indirectly engage the agent by talking about documentation engineering
