@@ -1,0 +1,7 @@
+{
+  "name": "brad-marketplace",
+  "owner": { "name": "brad", "email": "bradisawesome@gmail.com" },
+  "plugins": [
+    { "name": "docs", "source": "./docs", "description": "docs plugin" }
+  ]
+}
